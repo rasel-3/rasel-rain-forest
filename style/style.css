@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../asset/images/people-g4b3d85577_1920.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.navbar{
+    position: relative;
+    background-color:yellowgreen;
+    width: 640px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.material-symbols-outlined{
+position: absolute;
+left:1%;
+bottom:;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+   
+}
+ul li a{
+    color: brown;
+}
+ul li a:hover{
+    color: black;
+}
+.search{
+    margin-top: 5px;
+}
+.src{
+    width:50px;
+    border: solid;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 9px;
+    font-size: 8px;
+}
+.btn{
+  width: 50px;
+  height: 14px;
+  font-size: 9px;
+  border: solid green;
+  border-radius: 10px;
+}
+.para{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.bttn{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 60px;
+    border-radius: 15px;
+}
+.middle{
+    font-family: 'Delicious Handrawn', cursive;
+    color: crimson;
+}
+.tag{
+ font-size: 10px;
+}
+.bttn:hover{
+    background-color: black;
+    transition: 1s;
+
+}
+.hero{
+    display: flex;
+
+}
+.cd{
+    display: flex;
+}
+.got{
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    justify-content: space-around;
+    background-color: orangered;
+   
+}
